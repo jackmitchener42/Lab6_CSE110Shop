@@ -11,7 +11,7 @@ class ProductItem extends HTMLElement {
 
     const styleBoi = document.createElement('link');
     styleBoi.setAttribute('rel', 'stylesheet');
-    styleBoi.setAttribute('href', '../styles/styles.css');
+    styleBoi.setAttribute('href', '../styles.css');
 
     let card = document.createElement('span');
     card.className = 'product';
